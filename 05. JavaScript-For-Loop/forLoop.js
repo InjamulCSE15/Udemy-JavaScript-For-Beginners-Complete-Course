@@ -43,10 +43,10 @@ document.getElementById('forLoopEvenSum').innerHTML = "Sum of even numbers from 
 
 var a;
 var product = 1;
-var number = parseInt(prompt("Enter a number","Enter..."));
+var number = parseInt(prompt("Enter a number","1"));
 
 for (a = 1; a <= number; a++) {
     product = product * a;
 }
 
-document.querySelector('#factorial').innerHTML = "Factorial: " +product;
+document.querySelector('#factorial').innerHTML = number+ " factorial is: " +product;
