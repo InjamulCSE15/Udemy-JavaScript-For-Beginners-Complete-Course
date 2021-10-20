@@ -13,6 +13,7 @@ function sayHello () {
     document.querySelector('#sayHello').innerText = "Hello There!";
 }
 
+// Function with passing two value:
 
 function sayHelloAgain (name, age) {
 
