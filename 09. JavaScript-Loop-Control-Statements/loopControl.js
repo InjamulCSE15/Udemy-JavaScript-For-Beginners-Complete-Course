@@ -30,3 +30,17 @@ for( a = 1; a <= 10; a++) {
 }
 
 document.getElementById('breakText').innerHTML = breakText;
+
+// With continue statement:
+
+document.getElementById('continue').innerText = "With continue statement:"
+var x;
+var continueText = "";
+for( x = 1; x <= 10; x++) {
+    if (x == 5) {
+        continue; // Skip 5 from the loop
+    }
+    continueText +="x = "+ x + "<br>";
+}
+
+document.getElementById('continueText').innerHTML = continueText;
